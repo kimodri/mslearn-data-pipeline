@@ -1,10 +1,7 @@
 # 📋 MS Learn Data Catalog Pipeline
 This data pipeline takes into consideration the Microsoft Learn Catalog. The main goal is to move the data from being a semi-structured JSON file to database tables.
-- Link to databases:
-    - 1 
-    - 2
 
-This pipeline was implemented locally and through cloud for flexibility.
+This pipeline was implemented locally and through cloud for flexibility both have their respective databases.
 
 ## Keypoints
 - Source: Microsoft Learn Catalog API (JSON).
@@ -19,6 +16,7 @@ This pipeline was implemented locally and through cloud for flexibility.
 - Cloud Implementation
 - Local Implementation
 - Tradeoffs made
+- Documentation on how to use the database
 
 ## ☁️ Cloud Implementation: Azure Function for Data Extraction
 ![cloud_implementation](./img/cloud-halloween.jpg)
@@ -26,7 +24,7 @@ This pipeline was implemented locally and through cloud for flexibility.
 
 #### `function_app.py`
 
-I have deployed an **Azure Function** configured with a **Timer Trigger**. It is scheduled to extract the JSON data for the **Microsoft Learn Catalog** every morning at **9:00 AM, Philippine Time**.
+I am deploying an **Azure Function** configured with a **Timer Trigger**. It is scheduled to extract the JSON data for the **Microsoft Learn Catalog** every morning at **9:00 AM, Philippine Time**. This works with a local host. Just make sure you have `azurite`, `MS Azure Storage Explorer`, and `Azure core tools`
 
 ```python
 @app.timer_trigger(
@@ -296,3 +294,31 @@ The main problems I saw in here are:
 - It is evident that the main goal for this is to supply data that can be used for analytics therefore I must not opt for a simple SQLite becuase it is not secure and being just a file, any changes made to it won't be visble to others (say data engineers, analysts, scientist)
 - So we transferred to cloudbased postgreSQL which is supabase
 - In this database server, the admin can set authorization to all. Any changes will be visible to entire team as well for this is now a cloud-based solution.
+
+## 📊 How to Use the Database
+This pipeline exposes data through a Supabase database with strictly read-only access. This means you can view, query, and download the data, but you cannot make any changes (insert, update, or delete).
+
+1. **Connection Credentials (The Keys) 🔑**
+Use the following credentials to initialize your connection. These keys are public and only grant read permissions thanks to the Row Level Security (RLS) policies implemented on the database tables.
+
+| Environment     | Project URL                    | Anon Public Key (API Key)                                                                                                                                                                                                                                                                                                 |
+|-----------------|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Cloud Database  | https://supabase.com/dashboard/project/suggdcxzozxvgbllkkxo  | sb_publishable_BL36HEnAo_qK1NTFCdUwDA_TCxHP4hm |
+| Local Database  | https://supabase.com/dashboard/project/eztimocxwmolqkczuldw     | sb_publishable__8Idi-L2SvvRtgtAhd_8uA_QZA4X1Vg |
+
+2. **Sample Code:**
+```python
+from supabase import create_client
+
+# Replace placeholders with the actual URL and Key from the table above
+SUPABASE_URL = "YOUR_CLOUD_OR_LOCAL_URL"
+SUPABASE_ANON_KEY = "YOUR_ANON_PUBLIC_KEY"
+
+# Initialize the client
+supabase = create_client(SUPABASE_URL, SUPABASE_ANON_KEY)
+
+# Example: Fetch all rows from the 'products' table
+def get_modules():
+    response = supabase.table("modules").select("*").execute()
+    return response.data
+```
