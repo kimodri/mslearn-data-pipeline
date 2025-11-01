@@ -275,3 +275,9 @@ Response headers:
 2025-11-01 03:00:57,380 - INFO - ETL-main - Successfully loaded: subjects
 2025-11-01 03:00:57,381 - INFO - ETL-main - All tables loaded successfully.
 2025-11-01 03:00:57,613 - INFO - ETL-main - Transaction committed successfully. Load complete!
+2025-11-01 12:49:46,127 - INFO - ETL-main - Connecting to database (local)
+2025-11-01 12:49:46,690 - INFO - ETL-main - Connecting to database (cloud)
+2025-11-01 12:49:46,691 - INFO - ETL-main - Enabling RLS to the database (local)
+2025-11-01 12:49:52,854 - INFO - ETL-main - READ ONLY was given to anon on all 'public' tables in local.
+2025-11-01 12:49:52,855 - INFO - ETL-main - Enabling RLS to the database (cloud)
+2025-11-01 12:50:02,909 - INFO - ETL-main - READ ONLY was given to anon on all 'public' tables in cloud.
