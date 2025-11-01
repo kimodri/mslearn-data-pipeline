@@ -1,0 +1,277 @@
+2025-11-01 00:13:07,634 - INFO - ETL-main - Connecting to the database ...
+2025-11-01 00:19:09,397 - INFO - ETL-main - Connecting to the database ...
+2025-11-01 00:19:09,966 - INFO - ETL-main - Connected to the database ...
+2025-11-01 00:19:09,967 - ERROR - ETL-main - [Errno 2] No such file or directory: 'files/ms_learn_catalog_20251027.json': File does not exist ...
+2025-11-01 00:19:53,639 - INFO - ETL-main - Connecting to the database ...
+2025-11-01 00:19:53,749 - INFO - ETL-main - Connected to the database ...
+2025-11-01 00:19:53,993 - INFO - ETL-main - Checking if file already exists ...
+2025-11-01 00:20:00,046 - INFO - ETL-main - Tables are being transformed ...
+2025-11-01 00:20:00,680 - INFO - ETL-main - Tables have been transformed and now ready to be loaded ...
+2025-11-01 00:20:00,681 - INFO - ETL-main - Loading tables into the database ...
+2025-11-01 00:20:20,737 - INFO - ETL-main - Successfully loaded: modules
+2025-11-01 00:20:58,622 - INFO - ETL-main - Successfully loaded: units
+2025-11-01 00:30:23,642 - INFO - ETL-main - Connecting to the database ...
+2025-11-01 00:30:23,764 - INFO - ETL-main - Connected to the database ...
+2025-11-01 00:30:23,987 - INFO - ETL-main - Checking if file already exists ...
+2025-11-01 00:30:29,084 - INFO - ETL-main - Tables are being transformed ...
+2025-11-01 00:30:29,681 - INFO - ETL-main - Tables have been transformed and now ready to be loaded ...
+2025-11-01 00:30:29,681 - INFO - ETL-main - Loading tables into the database ...
+2025-11-01 00:30:46,362 - INFO - ETL-main - Successfully loaded: modules
+2025-11-01 00:31:18,628 - INFO - ETL-main - Successfully loaded: units
+2025-11-01 00:31:22,035 - INFO - ETL-main - Successfully loaded: learning_paths
+2025-11-01 00:31:22,893 - INFO - ETL-main - Successfully loaded: applied_skills
+2025-11-01 00:31:24,754 - INFO - ETL-main - Successfully loaded: certifications
+2025-11-01 00:31:29,706 - INFO - ETL-main - Successfully loaded: merged_certifications
+2025-11-01 00:31:31,112 - INFO - ETL-main - Successfully loaded: exams
+2025-11-01 00:31:32,873 - INFO - ETL-main - Successfully loaded: courses
+2025-11-01 00:31:33,302 - INFO - ETL-main - Successfully loaded: levels
+2025-11-01 00:31:33,733 - INFO - ETL-main - Successfully loaded: products
+2025-11-01 00:31:34,298 - INFO - ETL-main - Successfully loaded: roles
+2025-11-01 00:31:34,732 - INFO - ETL-main - Successfully loaded: subjects
+2025-11-01 00:31:34,733 - INFO - ETL-main - Load process complete!
+2025-11-01 02:26:40,595 - INFO - ETL-main - Connecting to the database ...
+2025-11-01 02:26:40,727 - INFO - ETL-main - Connected to the database ...
+2025-11-01 02:26:40,934 - INFO - ETL-main - Checking if file already exists ...
+2025-11-01 02:31:54,121 - INFO - ETL-main - Connecting to the database ...
+2025-11-01 02:31:54,259 - INFO - ETL-main - Connected to the database ...
+2025-11-01 02:31:54,484 - INFO - ETL-main - Checking if file already exists ...
+2025-11-01 02:31:59,157 - INFO - ETL-main - Tables are being transformed ...
+2025-11-01 02:31:59,735 - INFO - ETL-main - Tables have been transformed and now ready to be loaded ...
+2025-11-01 02:31:59,735 - INFO - ETL-main - Loading tables into the database ...
+2025-11-01 02:31:59,736 - INFO - ETL-main - Loading tables into the database transactionally ...
+2025-11-01 02:32:08,993 - INFO - ETL-main - Successfully loaded: modules
+2025-11-01 02:32:08,994 - INFO - ETL-main - modules loaded successfully.
+2025-11-01 02:32:25,294 - INFO - ETL-main - Successfully loaded: units
+2025-11-01 02:32:25,295 - INFO - ETL-main - units loaded successfully.
+2025-11-01 02:32:26,610 - INFO - ETL-main - Successfully loaded: learning_paths
+2025-11-01 02:32:26,611 - INFO - ETL-main - learning_paths loaded successfully.
+2025-11-01 02:32:26,917 - INFO - ETL-main - Successfully loaded: applied_skills
+2025-11-01 02:32:26,917 - INFO - ETL-main - applied_skills loaded successfully.
+2025-11-01 02:32:28,137 - INFO - ETL-main - Successfully loaded: certifications
+2025-11-01 02:32:28,138 - INFO - ETL-main - certifications loaded successfully.
+2025-11-01 02:32:29,055 - INFO - ETL-main - Successfully loaded: merged_certifications
+2025-11-01 02:32:29,056 - INFO - ETL-main - merged_certifications loaded successfully.
+2025-11-01 02:32:29,468 - INFO - ETL-main - Successfully loaded: exams
+2025-11-01 02:32:29,469 - INFO - ETL-main - exams loaded successfully.
+2025-11-01 02:32:30,083 - INFO - ETL-main - Successfully loaded: courses
+2025-11-01 02:32:30,084 - INFO - ETL-main - courses loaded successfully.
+2025-11-01 02:32:30,287 - INFO - ETL-main - Successfully loaded: levels
+2025-11-01 02:32:30,287 - INFO - ETL-main - levels loaded successfully.
+2025-11-01 02:32:30,492 - INFO - ETL-main - Successfully loaded: products
+2025-11-01 02:32:30,492 - INFO - ETL-main - products loaded successfully.
+2025-11-01 02:32:30,697 - INFO - ETL-main - Successfully loaded: roles
+2025-11-01 02:32:30,697 - INFO - ETL-main - roles loaded successfully.
+2025-11-01 02:32:30,901 - INFO - ETL-main - Successfully loaded: subjects
+2025-11-01 02:32:30,902 - INFO - ETL-main - subjects loaded successfully.
+2025-11-01 02:32:30,902 - INFO - ETL-main - All tables loaded successfully.
+2025-11-01 02:32:31,003 - INFO - ETL-main - Transaction committed successfully. Load complete!
+2025-11-01 02:32:42,524 - INFO - ETL-main - Connecting to the database ...
+2025-11-01 02:32:42,622 - INFO - ETL-main - Connected to the database ...
+2025-11-01 02:32:42,839 - INFO - ETL-main - Checking if file already exists ...
+2025-11-01 02:32:46,466 - INFO - ETL-main - Tables are being transformed ...
+2025-11-01 02:32:46,972 - INFO - ETL-main - Tables have been transformed and now ready to be loaded ...
+2025-11-01 02:32:46,973 - INFO - ETL-main - Loading tables into the database ...
+2025-11-01 02:32:46,973 - INFO - ETL-main - Loading tables into the database transactionally ...
+2025-11-01 02:32:53,842 - INFO - ETL-main - Successfully loaded: modules
+2025-11-01 02:32:53,843 - INFO - ETL-main - modules loaded successfully.
+2025-11-01 02:33:07,590 - INFO - ETL-main - Successfully loaded: units
+2025-11-01 02:33:07,591 - INFO - ETL-main - units loaded successfully.
+2025-11-01 02:33:08,997 - INFO - ETL-main - Successfully loaded: learning_paths
+2025-11-01 02:33:08,997 - INFO - ETL-main - learning_paths loaded successfully.
+2025-11-01 02:33:09,405 - INFO - ETL-main - Successfully loaded: applied_skills
+2025-11-01 02:33:09,406 - INFO - ETL-main - applied_skills loaded successfully.
+2025-11-01 02:33:10,737 - INFO - ETL-main - Successfully loaded: certifications
+2025-11-01 02:33:10,738 - INFO - ETL-main - certifications loaded successfully.
+2025-11-01 02:33:12,371 - INFO - ETL-main - Successfully loaded: merged_certifications
+2025-11-01 02:33:12,372 - INFO - ETL-main - merged_certifications loaded successfully.
+2025-11-01 02:33:13,194 - INFO - ETL-main - Successfully loaded: exams
+2025-11-01 02:33:13,194 - INFO - ETL-main - exams loaded successfully.
+2025-11-01 02:33:14,730 - INFO - ETL-main - Successfully loaded: courses
+2025-11-01 02:33:14,731 - INFO - ETL-main - courses loaded successfully.
+2025-11-01 02:33:14,935 - INFO - ETL-main - Successfully loaded: levels
+2025-11-01 02:33:14,936 - INFO - ETL-main - levels loaded successfully.
+2025-11-01 02:33:15,242 - INFO - ETL-main - Successfully loaded: products
+2025-11-01 02:33:15,243 - INFO - ETL-main - products loaded successfully.
+2025-11-01 02:33:15,447 - INFO - ETL-main - Successfully loaded: roles
+2025-11-01 02:33:15,448 - INFO - ETL-main - roles loaded successfully.
+2025-11-01 02:33:15,651 - INFO - ETL-main - Successfully loaded: subjects
+2025-11-01 02:33:15,652 - INFO - ETL-main - subjects loaded successfully.
+2025-11-01 02:33:15,653 - INFO - ETL-main - All tables loaded successfully.
+2025-11-01 02:33:15,754 - INFO - ETL-main - Transaction committed successfully. Load complete!
+2025-11-01 02:34:48,067 - INFO - ETL-main - Connecting to the database ...
+2025-11-01 02:34:48,174 - INFO - ETL-main - Connected to the database ...
+2025-11-01 02:34:48,459 - INFO - ETL-main - Checking if file already exists ...
+2025-11-01 02:34:51,910 - INFO - ETL-main - Tables are being transformed ...
+2025-11-01 02:34:52,462 - INFO - ETL-main - Tables have been transformed and now ready to be loaded ...
+2025-11-01 02:34:52,463 - INFO - ETL-main - Loading tables into the database ...
+2025-11-01 02:34:52,464 - INFO - ETL-main - Loading tables into the database transactionally ...
+2025-11-01 02:35:00,416 - INFO - ETL-main - Successfully loaded: modules
+2025-11-01 02:35:12,613 - INFO - ETL-main - Successfully loaded: units
+2025-11-01 02:35:13,870 - INFO - ETL-main - Successfully loaded: learning_paths
+2025-11-01 02:35:14,110 - INFO - ETL-main - Successfully loaded: applied_skills
+2025-11-01 02:35:14,654 - INFO - ETL-main - Successfully loaded: certifications
+2025-11-01 02:35:15,512 - INFO - ETL-main - Successfully loaded: merged_certifications
+2025-11-01 02:35:15,924 - INFO - ETL-main - Successfully loaded: exams
+2025-11-01 02:35:16,668 - INFO - ETL-main - Successfully loaded: courses
+2025-11-01 02:35:16,818 - INFO - ETL-main - Successfully loaded: levels
+2025-11-01 02:35:16,979 - INFO - ETL-main - Successfully loaded: products
+2025-11-01 02:35:17,116 - INFO - ETL-main - Successfully loaded: roles
+2025-11-01 02:35:17,261 - INFO - ETL-main - Successfully loaded: subjects
+2025-11-01 02:35:17,262 - INFO - ETL-main - All tables loaded successfully.
+2025-11-01 02:35:17,298 - INFO - ETL-main - Transaction committed successfully. Load complete!
+2025-11-01 02:57:24,020 - INFO - ETL-main - Connecting to the database ...
+2025-11-01 02:57:24,204 - INFO - ETL-main - Connected to the database ...
+2025-11-01 02:57:24,205 - INFO - ETL-main - Checking if file already exists ...
+2025-11-01 02:57:32,738 - INFO - ETL-main - Connecting to Azure Storage ...
+2025-11-01 02:57:32,884 - INFO - azure.core.pipeline.policies.http_logging_policy - Request URL: 'https://mslearnjsonstorage.blob.core.windows.net/files/microsoft_learn_catalog_20251027.json'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.13.7 (Windows-11-10.0.26100-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '750a2feb-b68b-11f0-8775-cc47402fb3ed'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-01 02:57:35,084 - INFO - azure.core.pipeline.policies.http_logging_policy - Response status: 206
+Response headers:
+    'Content-Length': '14411966'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Thu, 30 Oct 2025 06:51:13 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DE1780B743BB73"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e104edb4-701e-0080-5798-4a1194000000'
+    'x-ms-client-request-id': '750a2feb-b68b-11f0-8775-cc47402fb3ed'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 31 Oct 2025 18:57:36 GMT'
+2025-11-01 02:57:48,138 - INFO - ETL-main - Data from Azure has been downloaded successfully...
+2025-11-01 02:57:48,139 - INFO - ETL-main - Tables are being transformed ...
+2025-11-01 02:57:48,820 - INFO - ETL-main - Tables have been transformed and now ready to be loaded ...
+2025-11-01 02:57:48,821 - INFO - ETL-main - Loading tables into the database transactionally ...
+2025-11-01 02:57:54,978 - INFO - ETL-main - Successfully loaded: modules
+2025-11-01 02:58:15,971 - INFO - ETL-main - Successfully loaded: units
+2025-11-01 02:58:18,122 - INFO - ETL-main - Successfully loaded: learning_paths
+2025-11-01 02:58:19,084 - INFO - ETL-main - Successfully loaded: applied_skills
+2025-11-01 02:58:20,025 - INFO - ETL-main - Successfully loaded: certifications
+2025-11-01 02:58:21,576 - INFO - ETL-main - Successfully loaded: merged_certifications
+2025-11-01 02:58:22,571 - INFO - ETL-main - Successfully loaded: exams
+2025-11-01 02:58:23,772 - INFO - ETL-main - Successfully loaded: courses
+2025-11-01 02:58:24,635 - INFO - ETL-main - Successfully loaded: levels
+2025-11-01 02:58:25,551 - INFO - ETL-main - Successfully loaded: products
+2025-11-01 02:58:26,283 - INFO - ETL-main - Successfully loaded: roles
+2025-11-01 02:58:27,548 - INFO - ETL-main - Successfully loaded: subjects
+2025-11-01 02:58:27,548 - INFO - ETL-main - All tables loaded successfully.
+2025-11-01 02:58:27,746 - INFO - ETL-main - Transaction committed successfully. Load complete!
+2025-11-01 02:58:52,825 - INFO - ETL-main - Connecting to the database ...
+2025-11-01 02:58:52,962 - INFO - ETL-main - Connected to the database ...
+2025-11-01 02:58:52,963 - INFO - ETL-main - Checking if file already exists ...
+2025-11-01 02:59:01,624 - INFO - ETL-main - Connecting to Azure Storage ...
+2025-11-01 02:59:01,766 - INFO - azure.core.pipeline.policies.http_logging_policy - Request URL: 'https://mslearnjsonstorage.blob.core.windows.net/files/microsoft_learn_catalog_20251030.json'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.13.7 (Windows-11-10.0.26100-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'aa053183-b68b-11f0-b363-cc47402fb3ed'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-01 02:59:03,991 - INFO - azure.core.pipeline.policies.http_logging_policy - Response status: 206
+Response headers:
+    'Content-Length': '14376988'
+    'Content-Type': 'application/json'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Fri, 31 Oct 2025 01:19:52 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DE181B97D83999"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '06110cc2-001e-007e-1d98-4a7ed5000000'
+    'x-ms-client-request-id': 'aa053183-b68b-11f0-b363-cc47402fb3ed'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 31 Oct 2025 18:59:05 GMT'
+2025-11-01 02:59:14,518 - INFO - ETL-main - Data from Azure has been downloaded successfully...
+2025-11-01 02:59:14,519 - INFO - ETL-main - Tables are being transformed ...
+2025-11-01 02:59:15,153 - INFO - ETL-main - Tables have been transformed and now ready to be loaded ...
+2025-11-01 02:59:15,154 - INFO - ETL-main - Loading tables into the database transactionally ...
+2025-11-01 02:59:21,579 - INFO - ETL-main - Successfully loaded: modules
+2025-11-01 02:59:38,366 - INFO - ETL-main - Successfully loaded: units
+2025-11-01 02:59:39,989 - INFO - ETL-main - Successfully loaded: learning_paths
+2025-11-01 02:59:40,560 - INFO - ETL-main - Successfully loaded: applied_skills
+2025-11-01 02:59:41,487 - INFO - ETL-main - Successfully loaded: certifications
+2025-11-01 02:59:42,454 - INFO - ETL-main - Successfully loaded: merged_certifications
+2025-11-01 02:59:43,404 - INFO - ETL-main - Successfully loaded: exams
+2025-11-01 02:59:44,344 - INFO - ETL-main - Successfully loaded: courses
+2025-11-01 02:59:44,816 - INFO - ETL-main - Successfully loaded: levels
+2025-11-01 02:59:45,470 - INFO - ETL-main - Successfully loaded: products
+2025-11-01 02:59:45,849 - INFO - ETL-main - Successfully loaded: roles
+2025-11-01 02:59:46,300 - INFO - ETL-main - Successfully loaded: subjects
+2025-11-01 02:59:46,301 - INFO - ETL-main - All tables loaded successfully.
+2025-11-01 02:59:46,531 - INFO - ETL-main - Transaction committed successfully. Load complete!
+2025-11-01 02:59:59,608 - INFO - ETL-main - Connecting to the database ...
+2025-11-01 02:59:59,741 - INFO - ETL-main - Connected to the database ...
+2025-11-01 02:59:59,741 - INFO - ETL-main - Checking if file already exists ...
+2025-11-01 03:00:08,390 - INFO - ETL-main - Connecting to Azure Storage ...
+2025-11-01 03:00:08,525 - INFO - azure.core.pipeline.policies.http_logging_policy - Request URL: 'https://mslearnjsonstorage.blob.core.windows.net/files/microsoft_learn_catalog_20251031.json'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.13.7 (Windows-11-10.0.26100-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd1cfce3e-b68b-11f0-a049-cc47402fb3ed'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-01 03:00:10,688 - INFO - azure.core.pipeline.policies.http_logging_policy - Response status: 206
+Response headers:
+    'Content-Length': '19573384'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Fri, 31 Oct 2025 02:08:22 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DE18225E881D74"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '06d5f863-501e-0011-3698-4a7426000000'
+    'x-ms-client-request-id': 'd1cfce3e-b68b-11f0-a049-cc47402fb3ed'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 31 Oct 2025 19:00:11 GMT'
+2025-11-01 03:00:24,818 - INFO - ETL-main - Data from Azure has been downloaded successfully...
+2025-11-01 03:00:24,819 - INFO - ETL-main - Tables are being transformed ...
+2025-11-01 03:00:25,445 - INFO - ETL-main - Tables have been transformed and now ready to be loaded ...
+2025-11-01 03:00:25,447 - INFO - ETL-main - Loading tables into the database transactionally ...
+2025-11-01 03:00:31,198 - INFO - ETL-main - Successfully loaded: modules
+2025-11-01 03:00:49,354 - INFO - ETL-main - Successfully loaded: units
+2025-11-01 03:00:50,723 - INFO - ETL-main - Successfully loaded: learning_paths
+2025-11-01 03:00:51,822 - INFO - ETL-main - Successfully loaded: applied_skills
+2025-11-01 03:00:52,630 - INFO - ETL-main - Successfully loaded: certifications
+2025-11-01 03:00:53,570 - INFO - ETL-main - Successfully loaded: merged_certifications
+2025-11-01 03:00:54,342 - INFO - ETL-main - Successfully loaded: exams
+2025-11-01 03:00:55,269 - INFO - ETL-main - Successfully loaded: courses
+2025-11-01 03:00:55,864 - INFO - ETL-main - Successfully loaded: levels
+2025-11-01 03:00:56,456 - INFO - ETL-main - Successfully loaded: products
+2025-11-01 03:00:56,917 - INFO - ETL-main - Successfully loaded: roles
+2025-11-01 03:00:57,380 - INFO - ETL-main - Successfully loaded: subjects
+2025-11-01 03:00:57,381 - INFO - ETL-main - All tables loaded successfully.
+2025-11-01 03:00:57,613 - INFO - ETL-main - Transaction committed successfully. Load complete!
