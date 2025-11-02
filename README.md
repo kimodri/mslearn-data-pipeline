@@ -5,8 +5,8 @@ This pipeline was implemented locally and through cloud for flexibility both hav
 
 ## Keypoints
 - Source: Microsoft Learn Catalog API (JSON).
-- Cloud extraction scheduled daily at 9:00 AM PHT (UTC+08:00).
-- Files saved to an Azure Blob container files/ as microsoft_learn_catalog_YYYYMMDD.json.
+- Cloud extraction scheduled daily at 11:00 AM PHT (UTC+08:00).
+- Files saved to an Azure Blob container files/ as microsoft_learn_catalog_YYMMDD.json.
 - Before loading, the pipeline checks for duplicates to avoid unnecessary operations/costs.
 - Transformation: JSON → multiple pandas DataFrames (modules, units, subjects, …).
 - Load: DataFrames inserted transactionally into the database (rollback on error).
@@ -22,14 +22,14 @@ This pipeline was implemented locally and through cloud for flexibility both hav
 ![cloud_implementation](./img/cloud-halloween.jpg)
 ### How It Works
 
-#### `function_app.py`
+#### `functions/function_app.py`
 
-I am deploying an **Azure Function** configured with a **Timer Trigger**. It is scheduled to extract the JSON data for the **Microsoft Learn Catalog** every morning at **9:00 AM, Philippine Time**. This works with a local host. Just make sure you have `azurite`, `MS Azure Storage Explorer`, and `Azure core tools`
+I have deployed an **Azure Function** configured with a **Timer Trigger**. It is scheduled to extract the JSON data for the **Microsoft Learn Catalog** every morning at **9:00 AM, Philippine Time**. This works with a local host. Just make sure you have `azurite`, `MS Azure Storage Explorer`, and `Azure core tools`
 
 ```python
 @app.timer_trigger(
     arg_name="myTimer",
-    schedule = "0 9 * * *",
+    schedule = "0 11 * * *",
     run_on_startup=False
 )
 @app.blob_output(
