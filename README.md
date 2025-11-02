@@ -24,7 +24,7 @@ This pipeline was implemented locally and through cloud for flexibility both hav
 
 #### `functions/function_app.py`
 
-I am deploying an **Azure Function** configured with a **Timer Trigger**. It is scheduled to extract the JSON data for the **Microsoft Learn Catalog** every morning at **9:00 AM, Philippine Time**. This works with a local host. Just make sure you have `azurite`, `MS Azure Storage Explorer`, and `Azure core tools`
+I have deployed an **Azure Function** configured with a **Timer Trigger**. It is scheduled to extract the JSON data for the **Microsoft Learn Catalog** every morning at **9:00 AM, Philippine Time**. This works with a local host. Just make sure you have `azurite`, `MS Azure Storage Explorer`, and `Azure core tools`
 
 ```python
 @app.timer_trigger(
