@@ -6,7 +6,7 @@ This pipeline was implemented locally and through cloud for flexibility both hav
 ## Keypoints
 - Source: Microsoft Learn Catalog API (JSON).
 - Cloud extraction scheduled daily at 11:00 AM PHT (UTC+08:00).
-- Files saved to an Azure Blob container files/ as microsoft_learn_catalog_YYYYMMDD.json.
+- Files saved to an Azure Blob container files/ as microsoft_learn_catalog_YYMMDD.json.
 - Before loading, the pipeline checks for duplicates to avoid unnecessary operations/costs.
 - Transformation: JSON → multiple pandas DataFrames (modules, units, subjects, …).
 - Load: DataFrames inserted transactionally into the database (rollback on error).
